@@ -1,0 +1,78 @@
+{
+  "emisor": {
+    "numero_documento": "20605389458",
+    "tipo_documento_identidad": "6",
+    "razon_social": "TECNOLOGIA Y SISTEMAS DEL SUR S.A.C.",
+    "nombre_comercial": "TECSUR PERU",
+    "direccion": {
+      "direccion": "Av. Republica de Panama 3545, Of. 801",
+      "ubigeo": "150131",
+      "departamento": "LIMA",
+      "provincia": "LIMA",
+      "distrito": "SAN ISIDRO",
+      "codigo_pais": "PE",
+      "codigo_local_anexo": "0000",
+      "urbanizacion": "San Borja Sur"
+    }
+  },
+  "cliente": {
+    "numero_documento": "20552103816",
+    "tipo_documento_identidad": "6",
+    "razon_social": "DISTRIBUIDORA INDUSTRIAL LIMA NORTE S.A.C.",
+    "nombre_comercial": "LIMA NORTE DISTRIBUCIONES",
+    "direccion": {
+      "direccion": "Av. Alfredo Mendiola 1400, Urb. Panamericana",
+      "ubigeo": "150117",
+      "departamento": "LIMA",
+      "provincia": "LIMA",
+      "distrito": "LOS OLIVOS",
+      "codigo_pais": "PE"
+    }
+  },
+  "tipo_documento": "01",
+  "serie": "F001",
+  "correlativo": 1,
+  "fecha_emision": "2026-11-12",
+  "hora_emision": "10:30:00",
+  "moneda": "PEN",
+  "tipo_operacion": "0101",
+  "terminos_pago": {
+    "forma_pago": "Contado"
+  },
+  "items": [
+    {
+      "id_linea": 1,
+      "descripcion": "Servidor Rack 2U Enterprise Xeon 32GB RAM 2TB SSD",
+      "cantidad": "2.00",
+      "unidad_medida": "NIU",
+      "valor_unitario": "4500.00",
+      "codigo_afectacion_igv": "10",
+      "codigo_producto": "SRV-2U-XEON",
+      "codigo_producto_sunat": "43211501"
+    },
+    {
+      "id_linea": 2,
+      "descripcion": "Servicio de Instalacion, Configuracion de Red y Puesta en Marcha",
+      "cantidad": "1.00",
+      "unidad_medida": "ZZ",
+      "valor_unitario": "800.00",
+      "codigo_afectacion_igv": "10",
+      "codigo_producto": "SRV-INST-01",
+      "codigo_producto_sunat": "81111801"
+    },
+    {
+      "id_linea": 3,
+      "descripcion": "Manual Tecnico de Arquitectura de Sistemas y E-Invoicing UBL 2.1 (Libro)",
+      "cantidad": "1.00",
+      "unidad_medida": "NIU",
+      "valor_unitario": "250.00",
+      "codigo_afectacion_igv": "20",
+      "codigo_producto": "LIB-UBL-21",
+      "codigo_producto_sunat": "55101509"
+    }
+  ],
+  "leyendas": {
+    "1000": "SON ONCE MIL OCHOCIENTOS CATORCE Y 00/100 SOLES"
+  },
+  "tasa_igv_defecto": "0.18"
+}
